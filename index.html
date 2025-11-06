@@ -387,7 +387,7 @@
         <!-- Slide 1: Welcome -->
         <div class="slide welcome-slide active" id="slide1">
             <h1 class="welcome-title">Hey Meredith!</h1>
-            <p class="welcome-message">I have a special question for you...</p>
+            <p class="welcome-message">I've got something to ask you...</p>
             <button class="btn next-btn" onclick="nextSlide()">
                 <i class="fas fa-arrow-right"></i> Continue
             </button>
@@ -395,67 +395,67 @@
 
         <!-- Slide 2: Invitation -->
         <div class="slide invitation-slide" id="slide2">
-            <h2 class="invitation-title">A Special Invitation</h2>
-            <p class="invitation-text">Jonathan would like to invite you on a date!</p>
+            <h2 class="invitation-title">So here's the thing...</h2>
+            <p class="invitation-text">I'd love to take you on a date!</p>
             <button class="btn next-btn" onclick="nextSlide()">
-                <i class="fas fa-arrow-right"></i> What's next?
+                <i class="fas fa-arrow-right"></i> Tell me more
             </button>
         </div>
 
         <!-- Slide 3: Tease -->
         <div class="slide tease-slide" id="slide3">
-            <p class="tease-text">Ready to find out what he has planned?</p>
+            <p class="tease-text">Wanna see what I've got planned?</p>
             <button class="btn next-btn" onclick="nextSlide()">
-                <i class="fas fa-search"></i> Find out what he has planned >
+                <i class="fas fa-search"></i> Show me what you got!
             </button>
         </div>
 
         <!-- Slide 4: Reveal Activity -->
         <div class="slide reveal-slide" id="slide4">
-            <h2 class="reveal-title">Get Ready for Something Amazing!</h2>
+            <h2 class="reveal-title">This is gonna be fun!</h2>
             <div class="lego-icon">
                 <i class="fas fa-bowling-ball"></i>
             </div>
-            <p class="reveal-text">Get ready for a Bowling Date! We'll be hitting the lanes together for some fun and friendly competition.</p>
+            <p class="reveal-text">I thought we could go bowling! Hit the lanes, have some laughs, maybe make a friendly bet on who scores higher 😄</p>
             <button class="btn next-btn" onclick="nextSlide()">
-                <i class="fas fa-calendar"></i> When is this happening?
+                <i class="fas fa-calendar"></i> When are we doing this?
             </button>
         </div>
 
         <!-- Slide 5: Reveal Day -->
         <div class="slide reveal-slide" id="slide5">
-            <h2 class="reveal-title">The Perfect Day</h2>
+            <h2 class="reveal-title">Sunday works best for me</h2>
             <div class="lego-icon">
                 <i class="fas fa-calendar-check"></i>
             </div>
-            <p class="reveal-text">We'll go bowling on Sunday! Perfect day to relax, have fun, and spend time together.</p>
+            <p class="reveal-text">I'm thinking Sunday! Perfect day to chill, have some fun, and just hang out together.</p>
             <button class="btn next-btn" onclick="nextSlide()">
-                <i class="fas fa-check"></i> Sounds great!
+                <i class="fas fa-check"></i> Cool, let's do it!
             </button>
         </div>
 
         <!-- Slide 6: Day Display -->
         <div class="slide scheduling-slide" id="slide6">
-            <h2 class="scheduling-title">Mark Your Calendar!</h2>
+            <h2 class="scheduling-title">So yeah, Sunday it is!</h2>
             <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
                 <div style="font-size: 4rem; color: #fff; margin: 20px 0;">
                     <i class="fas fa-calendar-day"></i>
                 </div>
                 <p style="font-size: 2rem; color: #fff; font-weight: 600; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Sunday</p>
-                <p style="font-size: 1.2rem; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Can't wait to see you there!</p>
+                <p style="font-size: 1.2rem; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">I'm really looking forward to it!</p>
             </div>
             <button class="btn next-btn" onclick="selectDay('Sunday')" style="margin-top: 30px;">
-                <i class="fas fa-arrow-right"></i> Continue
+                <i class="fas fa-arrow-right"></i> Sounds good!
             </button>
         </div>
 
         <!-- Slide 7: Confirmation -->
         <div class="slide confirmation-slide" id="slide7">
-            <h2 class="confirmation-title">Perfect!</h2>
+            <h2 class="confirmation-title">Awesome!</h2>
             <p class="confirmation-text" id="confirmationMessage">Can't wait to see you!</p>
-            <p class="confirmation-text">Confirm the date with Jonathan</p>
+            <p class="confirmation-text">Let me know if you're in! Just hit that button below 😊</p>
             <button class="btn confirm-btn" onclick="confirmDate()">
-                <i class="fas fa-check"></i> Confirm
+                <i class="fas fa-check"></i> I'm in!
             </button>
             <button class="btn restart-btn" onclick="restart()" style="margin-top: 15px; background: linear-gradient(45deg, #654321, #5C4033);">
                 <i class="fas fa-redo"></i> Start Over
@@ -522,7 +522,7 @@
         }
 
         function confirmDate() {
-            const message = `Hi Jonathan! I'd love to go bowling with you on Sunday! Can't wait to hit the lanes together! 🎳`;
+            const message = `Hey! I'm totally down for bowling on Sunday! Can't wait to see you there! 🎳`;
             const phoneNumber = '7134372364';
             
             // Create the iMessage URL
